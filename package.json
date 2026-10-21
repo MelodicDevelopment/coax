@@ -45,7 +45,7 @@
   "dependencies": {
     "@melodicdev/components": "^2.0.0",
     "@melodicdev/core": "^2.0.0",
-    "@sentry/electron": "^7.13.0",
+    "@sentry/electron": "^7.20.2",
     "better-sqlite3": "^11.3.0",
     "commander": "^14.0.3",
     "electron-updater": "^6.8.3",
