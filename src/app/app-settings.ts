@@ -35,7 +35,7 @@ export interface AppSettings {
    */
   hasSeenWelcome: boolean;
   /**
-   * When true, the app checks R2 for new builds on launch and offers
+   * When true, the app checks GitHub Releases for new builds on launch and offers
    * a one-click restart to install. Default true. Users who prefer
    * pinned versions can disable.
    */

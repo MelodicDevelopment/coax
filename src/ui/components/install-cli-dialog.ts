@@ -16,7 +16,7 @@ type DialogElement = HTMLElement & { component: { open(): void; close(): void } 
 
 const INSTALL_CMD = 'npm install --global @melodicdev/coax-cli';
 const SAMPLE_CMD = 'coax run path/to/tests.http';
-const DOCS_URL = 'https://coax.melodic.dev/docs/cli';
+const DOCS_URL = 'https://github.com/MelodicDevelopment/coax/blob/main/docs/cli.md';
 
 @MelodicComponent({
   selector: 'hu-install-cli-dialog',

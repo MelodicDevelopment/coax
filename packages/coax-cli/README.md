@@ -1,6 +1,6 @@
 # @melodicdev/coax-cli
 
-The headless runner for [Coax](https://coax.melodic.dev). Run `.http` files in CI, with inline assertions, JUnit output, and exit codes your build system actually understands.
+The headless runner for [Coax](https://github.com/MelodicDevelopment/coax). Run `.http` files in CI, with inline assertions, JUnit output, and exit codes your build system actually understands.
 
 ```sh
 npm install --global @melodicdev/coax-cli
@@ -128,7 +128,7 @@ GitHub Actions:
 
 ## Links
 
-- [coax.melodic.dev](https://coax.melodic.dev) — the Coax desktop app
+- [Releases](https://github.com/MelodicDevelopment/coax/releases) — the Coax desktop app
 - [GitHub](https://github.com/MelodicDevelopment/coax) — source, issues, releases
 - [Full CLI reference](https://github.com/MelodicDevelopment/coax/blob/main/docs/cli.md)
 - [GitHub Actions example](https://github.com/MelodicDevelopment/coax/blob/main/docs/cli-example/.github/workflows/coax.yml)

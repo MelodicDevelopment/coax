@@ -24,7 +24,7 @@ app.setAboutPanelOptions({
   applicationName: 'Coax',
   applicationVersion: app.getVersion(),
   copyright: '© 2026 Melodic Development',
-  website: 'https://coax.melodic.dev',
+  website: 'https://github.com/MelodicDevelopment/coax',
   credits: 'Your API workspace is just a .http file.',
 });
 

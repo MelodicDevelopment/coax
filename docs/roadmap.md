@@ -8,7 +8,7 @@ Each phase aims for a shippable release that's independently marketable.
 
 ### Phase 0 — Foundation (target: v0.2, ~3 weeks) — shipped
 - [Telemetry: Sentry crash reporting](plans/01-telemetry-sentry.md) — opt-in, content-free
-- Marketing one-pager — coax.melodic.dev, downloads + demo GIF
+- Marketing one-pager — shipped, since taken down; downloads now live on GitHub Releases
 
 **Milestone:** Coax is released, and you know when it crashes.
 

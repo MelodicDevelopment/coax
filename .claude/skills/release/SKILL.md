@@ -12,10 +12,10 @@ This repo's release pipeline: pushing a `vX.Y.Z` tag triggers
 `.github/workflows/release.yml`, which builds signed + notarized
 macOS/Windows/Linux installers from a single macOS runner (electron-builder
 cross-builds; Windows signs via jsign + Azure Trusted Signing) and uploads
-them to a **draft** GitHub Release. Publishing the draft then triggers
-`.github/workflows/update-website.yml`, which repoints the marketing site's
-download links and Railway redeploys it. The only manual steps are the ones
-this skill automates: bump → verify → tag → publish with real notes.
+them to a **draft** GitHub Release. Publishing the draft is what makes the
+build visible to auto-updaters (electron-updater polls GitHub Releases). The
+only manual steps are the ones this skill automates: bump → verify → tag →
+publish with real notes.
 
 ## 1. Check the working tree
 
@@ -105,13 +105,14 @@ EOF
   --draft=false --latest
 ```
 
-## 8. Confirm the website followed
+## 8. Confirm auto-update metadata is live
 
-Publishing fires `update-website.yml`, which commits a download-link bump to
-`web/config/config.json` and Railway redeploys. Within a few minutes verify:
+Auto-updates are served straight from the published release. Verify the
+updater manifest resolves (no marketing site is deployed; `web/` is kept in
+the repo but unused):
 
 ```bash
-curl -s https://coax.melodic.dev/ | grep -o 'Coax-[0-9.]*-universal.dmg' | head -1
+curl -sL https://github.com/MelodicDevelopment/coax/releases/latest/download/latest-mac.yml | head -3
 ```
 
 It should show the new version. Report the release URL back to the user.

@@ -15,7 +15,7 @@
     "coax",
     "dotenv-http"
   ],
-  "homepage": "https://coax.melodic.dev",
+  "homepage": "https://github.com/MelodicDevelopment/coax",
   "bugs": "https://github.com/MelodicDevelopment/coax/issues",
   "repository": {
     "type": "git",

@@ -146,4 +146,4 @@ so they never phone home at all.
 
 [MIT](LICENSE) © Melodic Development.
 
-The marketing site lives at [coax.melodic.dev](https://coax.melodic.dev).
+Downloads and auto-updates are served from [GitHub Releases](https://github.com/MelodicDevelopment/coax/releases). The marketing site in `web/` is not currently deployed.

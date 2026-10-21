@@ -203,7 +203,7 @@ const DEFAULT_SIDEBAR = 280;
                         <span class="dot">·</span>
                         <a
                           class="text-link"
-                          href="https://coax.melodic.dev/docs/cli"
+                          href="https://github.com/MelodicDevelopment/coax/blob/main/docs/cli.md"
                           target="_blank"
                           rel="noreferrer"
                         >
